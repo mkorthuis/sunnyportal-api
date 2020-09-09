@@ -1,12 +1,14 @@
 
 var assert = require('assert');
-var SunnyPortal = require('../lib/sunnyportal')
+var SunnyPortal = require('../lib/sunnyportal');
+const credentials = require('./credentials');
+
 
 var opts = {
 	url : 'https://sunnyportal.com',
-	username : '',
-	password : '',
-	plantOID : ''
+	username : credentials.username,
+	password : credentials.password,
+	plantOID : credentials.plant0ID
 }
 
 var month = 4;
