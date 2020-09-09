@@ -1,11 +1,12 @@
 
 var assert = require('assert');
 var SunnyPortal = require('../lib/sunnyportal')
+
 var opts = {
 	url : 'https://sunnyportal.com',
-	username : 'YOUR USERNAME',
-	password : 'YOUR PASSWORD',
-	plantOID : 'YOUR PLANT ID'
+	username : '',
+	password : '',
+	plantOID : ''
 }
 
 var month = 4;

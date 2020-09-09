@@ -1,42 +1,42 @@
-{ 
+{
 	"name": "sunnyportal-api",
-	"main" : "./lib/sunnyportal.js",
-	"description" : "Sunny Portal API module for nodeJS",
-	"homepage" : "http://www.github.com/mkorthuis/sunnyportal-api",
-	"keywords" : [
+	"main": "./lib/sunnyportal.js",
+	"description": "Sunny Portal API module for nodeJS",
+	"homepage": "http://www.github.com/mkorthuis/sunnyportal-api",
+	"keywords": [
 		"sunnyportal",
 		"sunny",
 		"portal",
 		"api",
 		"solar"
 	],
-	"author" : {
-		"name" : "Michael Korthuis"
+	"author": {
+		"name": "Michael Korthuis"
 	},
-	"licenses" : [
+	"licenses": [
 		{
-			"type" : "MIT",
-			"url" : "http://github.com/mkorthuis/sunnyportal-api/blob/master/LICENSE.txt"
+			"type": "MIT",
+			"url": "http://github.com/mkorthuis/sunnyportal-api/blob/master/LICENSE.txt"
 		}
 	],
 	"bugs": {
- 		"url": "http://github.com/mkorthuis/sunnyportal-api/issues"
+		"url": "http://github.com/mkorthuis/sunnyportal-api/issues"
 	},
-	"dependencies" : {
-		"request" : "2.34.0",
-		"flow" : "0.2.2"
+	"dependencies": {
+		"request": "2.34.0",
+		"flow": "0.2.2"
 	},
 	"devDependencies": {
 		"assert": "*",
 		"mocha": "*"
 	},
-	"repository" : {
-		"type" : "git",
-		"url" : "git://github.com/mkorthuis/sunnyportal-api.git"
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mkorthuis/sunnyportal-api.git"
 	},
-	"engines" : {
-		"node" : ">=0.10.26"
+	"engines": {
+		"node": ">=0.10.26"
 	},
-	"version" : "0.0.1",
-	"readmeFilename" : "README.md"
+	"version": "0.0.1",
+	"readmeFilename": "README.md"
 }
